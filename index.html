@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Hero | iROID Technologies Interview</title>
+
+  <link rel="shortcut icon" href="imgs/icons/favicon.png">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+
+  <!-- HEADER -->
+  <header id="themeHeader" class="theme-header">
+    <div class="container">
+      <div class="row thead-row">
+        <div class="site-logo">
+          <a href="index.html">Hero</a>
+        </div>
+        
+        <div class="site-menu">
+          <ul class="nav theme-deskmenu">
+            <li class="active"><a href="javascript:void(0);">Home</a></li>
+            <li><a href="javascript:void(0);">About us</a></li>
+            <li><a href="javascript:void(0);">Products</a></li>
+            <li><a href="javascript:void(0);">Solutions</a></li>
+            <li><a href="javascript:void(0);">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu">
+          <a href="javascript:void(0);" class="menu-handle">
+            <span id="mmBar"><img src="imgs/icons/menu.png" class="img-theme" alt=""></span>
+            <span id="mmClose"><i class="fas fa-times"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /HEADER -->
+
+
+
+  <!-- HOME BANNER -->
+  <section class="theme-home" id="themeHome">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-12">
+          <ul class="home-images">
+            <li>
+              <div class="homeimg-box">
+                <img src="imgs/assets/handsome-serious-calm-guy-with-dark.png" class="img-theme" alt=""/>
+              </div>
+              <div class="homeimg-box">
+                <img src="imgs/assets/vertical-shot-of-young-european-woman-in-glasses.png" class="img-theme" alt=""/>
+              </div>
+            </li>
+            <li>
+              <div class="homeimg-box">
+                <img src="imgs/assets/pretty-young-asian-woman-makes-meditating.png" class="img-theme" alt=""/>
+              </div>
+              <div class="homeimg-box">
+                <img src="imgs/assets/positive-smiling-handsome-caucasian-man-looks.png" class="img-theme" alt=""/>
+              </div>
+            </li>
+            <li>
+              <div class="homeimg-box">
+                <img src="imgs/assets/positive-dark-skinned-woman-dressed.png" class="img-theme" alt=""/>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6 order-lg-1 home-anim">
+          <div>
+            <h1>Build your best community starting from here.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            <a href="#" class="btn-theme">Get Started</a>
+            <a href="#" class="site-link"><span>Learn More</span> <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+          </div>
+
+          <ul class="home-events">
+            <li>
+              <a href="#">
+                <span><img src="imgs/icons/comments.png" class="img-theme" alt=""/></span>
+                <span>Build<br>Community</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><img src="imgs/icons/week-schedule.png" class="img-theme" alt=""/></span>
+                <span>Share<br>Events</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><img src="imgs/icons/post.png" class="img-theme" alt=""/></span>
+                <span>Get<br>Information</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        
+      </div>
+    </div>
+
+  </section>
+  <!-- /HOME BANNER -->
+  
+
+  
+
+  
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        $("#themeHeader").addClass("theme-scroll");
+      } else {
+        $("#themeHeader").removeClass("theme-scroll");
+      }
+    }
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+  
+      if ($(window).width() < 992) {
+        $(".menu-handle").click(function(e){
+          $(".site-menu").toggleClass("open-mobmenu");
+          $(".menu-handle").toggleClass("mm-ctrl");
+          $("body").toggleClass("prevent-scroll");
+        });
+      }
+    });
+  
+  </script>
+  
+  
+</body>
+
+</html>
